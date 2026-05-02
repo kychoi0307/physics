@@ -21,7 +21,7 @@ while error > accuracy:
     error = abs(a - b)
 
 x = (a + b) / 2.0
-print("root1:", x)
+print("root1: x =", x)
 
 # 두 번째 구간: [0, 4]
 a = 0.0
@@ -39,4 +39,4 @@ while error > accuracy:
     error = abs(a - b)
 
 x = (a + b) / 2.0
-print("root2:", x)
+print("root2: x =", x)

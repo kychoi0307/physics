@@ -19,7 +19,7 @@ while abs(error) > accuracy:
     error = f(x) / df(x)
     x -= error
 
-print("root1:", x)
+print("root1: x =", x)
 
 # 두 번째 구간 [0, 4] 근처
 x = 1.0
@@ -29,4 +29,4 @@ while abs(error) > accuracy:
     error = f(x) / df(x)
     x -= error
 
-print("root2:", x)
+print("root2: x =", x)

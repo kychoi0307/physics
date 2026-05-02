@@ -19,5 +19,4 @@ while abs(error) > accuracy:
     error = f(x) / df(x)
     x -= error
 
-print(x)
-print(f(x))
+print("The root is x =", x)
